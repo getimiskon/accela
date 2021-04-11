@@ -3,13 +3,13 @@ A CLI-based personal assistant
 
 Keep in mind that the software is under development and it's in its alpha stage, and a some features will change over time.
 
-How to install cli-assistant
-----------------------------
+How to use cli-assistant
+------------------------
 
 1. Clone this repository
 2. Navigate to the files of this repository
-3. Run `gcc main.c -o main` to compile the software
-4. Run `./main` to run the software
+3. Run `make` to compile the software
+4. Run `./assistant` to run the software
 
 How to use cli-assistant
 ------------------------
@@ -37,3 +37,5 @@ There are two flags in the program's code that can be changed (their values can 
 
 1. `VOICE` - It toggles the voice output.
 2. `DEV` - It toggles the developer mode.
+
+The values can also be disabled when compiling by running `make no-voice` or `make no-dev`.
