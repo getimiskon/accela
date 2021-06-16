@@ -1,0 +1,16 @@
+0.1.1-alpha (2021-04-11)
+=====
+
+The first update of the program.
+
+Changes:
+- Removal of unused code
+- Minor changes in the code
+- Creation of the Makefile
+
+
+
+0.1.0-alpha (2020-09-08)
+=====
+
+The first public release of the program. Created as a proof of concept.
